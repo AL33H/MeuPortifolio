@@ -1,23 +1,37 @@
-body{
-    height: 590px;
-}
 
+body{
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
 .text{
+
     position: absolute;
     top: 225px;
-    color: aqua;
     margin-left: 40px;
 }
 
 .photo{
-    position: absolute;
+    opacity: .90;
     width: 100%;
-    height: 580px;
+    height: 100vh;
+    padding: 0;
 }
 
-.divimg{
-    position: relative;
-    font-size: 200px;
-    
-    font-size: xx-large;
+
+.h2oi{
+    margin-bottom: -10px;
+}
+
+.h1name{
+    font-size: 4.2rem;
+    line-height: 1.2;
+    color: white;
+    border: 200px;
+}
+
+.h2prof{
+    margin-left: 266px;
+    color: white;
 }
