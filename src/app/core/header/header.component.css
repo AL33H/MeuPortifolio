@@ -1,12 +1,44 @@
-.container{
-    margin: auto;
-    width: 22em;
-    display: flex;
-    font-size: 18px;
-    position: static;
-    color: aqua;
+
+
+nav , a{
+    
+    text-decoration: none;
+    color: rgb(7, 3, 3);
     
 }
+
+.container {
+    display: flex;
+    margin: auto;
+    width: 22em;
+    font-size: 18px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav a:hover{
+    color: aqua;
+}
+
+
+
+/*
+margin-left: 5px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+*/
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 
 .text{
     color: white;
