@@ -2,11 +2,11 @@
     <div class="container">
         <div>
             <ul class="text nav col-16">
-                <li><a href="#" class="nav-link px-2 active">Inicio</a></li>
-                <li><a href="#" class="nav-link px-2 active">Sobre</a></li>
-                <li><a href="#" class="nav-link px-2 active">Cursos</a></li>
-                <li><a href="#" class="nav-link px-2 active">Educação</a></li>
-                <li><a href="#" class="nav-link px-2 active">Contato</a></li>
+                <li><a  [routerLink]="['/home']" routerLinkActive="active" class="nav-link px-2 active">Inicio</a></li>
+                <li><a [routerLink]="['/sobre']" routerLinkActive="active" class="nav-link px-2 active">Sobre</a></li>
+                <li><a [routerLink]="['/cursos']" routerLinkActive="active" class="nav-link px-2 active">Cursos</a></li>
+                <li><a [routerLink]="['/educacao']" routerLinkActive="active" class="nav-link px-2 active">Educação</a></li>
+                <li><a [routerLink]="['/contato']" routerLinkActive="active" class="nav-link px-2 active">Contato</a></li>
             </ul>
         </div>
     </div>
